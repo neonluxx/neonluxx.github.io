@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>NEONLUXX</title>
+<style>
+body { font-family: Arial; background:#f5f5f5; margin:0; }
+header { background:#000; color:#fff; padding:20px; text-align:center; }
+.products { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; padding:20px; }
+.product { background:#fff; padding:15px; border-radius:10px; }
+.product img { width:100%; border-radius:10px; }
+.price { font-size:18px; font-weight:bold; }
+.old { text-decoration:line-through; color:gray; }
+button { background:black; color:white; border:none; padding:10px; width:100%; cursor:pointer; }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Mój Sklep</h1>
+<p>Promocje – wysyłka na całą Polskę</p>
+</header>
+
+<div class="products">
+
+<div class="product">
+<img src="https://via.placeholder.com/300">
+<h3>Gadżet LED do auta</h3>
+<p class="price">29 zł <span class="old">59 zł</span></p>
+<button onclick="window.location.href='https://forms.gle/'">Zamów</button>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300">
+<h3>Organizer samochodowy</h3>
+<p class="price">39 zł <span class="old">79 zł</span></p>
+<button onclick="window.location.href='https://forms.gle/'">Zamów</button>
+</div>
+
+</div>
+
+</body>
+</html>
